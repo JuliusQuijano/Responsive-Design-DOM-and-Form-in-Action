@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="aqfg.css" href="style.css">
+<head>
+  <title>Student Directory</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Student Directory</h1>
+      <p>Add and manage student records</p>
+    </header>
+
+    <section>
+      <form id="student-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+          <label for="program">Program:</label>
+          <input type="text" name="program" id="program" required>
+        </div>
+        <button type="submit">Add Student</button>
+      </form>
+    </section>
+
+     <section id="grid"></section>
+
+  </main>
+
+  <script src="aqfg.js"></script>
+  
+</body>
+</html>
